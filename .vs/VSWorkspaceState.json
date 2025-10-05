@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\scripts",
+    "\\src",
+    "\\src\\Application",
+    "\\src\\Domain",
+    "\\src\\Domain\\Entities",
+    "\\tests"
+  ],
+  "SelectedNode": "\\src\\Domain\\Domain.csproj",
+  "PreviewInSolutionExplorer": false
+}

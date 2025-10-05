@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProjectsLocal\\quartile-stores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C208439-6E55-4D3C-B684-EB3E5CE1E65C}|src\\Application\\Application.csproj|c:\\projectslocal\\quartile-stores\\src\\application\\features\\companies\\createcompany\\createcompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C208439-6E55-4D3C-B684-EB3E5CE1E65C}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\companies\\createcompany\\createcompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0405C3-44B6-4EDB-B16D-B208A0B42B8E}|tests\\tests.csproj|c:\\projectslocal\\quartile-stores\\tests\\application\\features\\companies\\createcompany\\createcompanyhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0405C3-44B6-4EDB-B16D-B208A0B42B8E}|tests\\tests.csproj|solutionrelative:tests\\application\\features\\companies\\createcompany\\createcompanyhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0405C3-44B6-4EDB-B16D-B208A0B42B8E}|tests\\tests.csproj|c:\\projectslocal\\quartile-stores\\tests\\controllers\\storecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0405C3-44B6-4EDB-B16D-B208A0B42B8E}|tests\\tests.csproj|solutionrelative:tests\\controllers\\storecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899D0A80-ACCB-4B21-9462-50179CE6466C}|src\\StoreApi\\StoreApi.csproj|c:\\projectslocal\\quartile-stores\\src\\storeapi\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899D0A80-ACCB-4B21-9462-50179CE6466C}|src\\StoreApi\\StoreApi.csproj|solutionrelative:src\\storeapi\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899D0A80-ACCB-4B21-9462-50179CE6466C}|src\\StoreApi\\StoreApi.csproj|c:\\projectslocal\\quartile-stores\\src\\storeapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899D0A80-ACCB-4B21-9462-50179CE6466C}|src\\StoreApi\\StoreApi.csproj|solutionrelative:src\\storeapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCompanyHandler.cs",
+              "DocumentMoniker": "C:\\ProjectsLocal\\quartile-stores\\src\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandler.cs",
+              "ToolTip": "C:\\ProjectsLocal\\quartile-stores\\src\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandler.cs",
+              "RelativeToolTip": "src\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:33:19.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateCompanyHandlerTests.cs",
+              "DocumentMoniker": "C:\\ProjectsLocal\\quartile-stores\\tests\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandlerTests.cs",
+              "ToolTip": "C:\\ProjectsLocal\\quartile-stores\\tests\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandlerTests.cs",
+              "RelativeToolTip": "tests\\Application\\Features\\Companies\\CreateCompany\\CreateCompanyHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:33:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreControllerTests.cs",
+              "DocumentMoniker": "C:\\ProjectsLocal\\quartile-stores\\tests\\Controllers\\StoreControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\Controllers\\StoreControllerTests.cs",
+              "ToolTip": "C:\\ProjectsLocal\\quartile-stores\\tests\\Controllers\\StoreControllerTests.cs",
+              "RelativeToolTip": "tests\\Controllers\\StoreControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:28:57.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\ProjectsLocal\\quartile-stores\\src\\StoreApi\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "src\\StoreApi\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\ProjectsLocal\\quartile-stores\\src\\StoreApi\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "src\\StoreApi\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:27:24.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\ProjectsLocal\\quartile-stores\\src\\StoreApi\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "src\\StoreApi\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\ProjectsLocal\\quartile-stores\\src\\StoreApi\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "src\\StoreApi\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:21:17.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

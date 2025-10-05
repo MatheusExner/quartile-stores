@@ -1,0 +1,12 @@
+C:\ProjectsLocal\quartile-stores\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\ProjectsLocal\quartile-stores\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\ProjectsLocal\quartile-stores\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\ProjectsLocal\quartile-stores\src\Domain\obj\Debug\net8.0\ref\Domain.dll

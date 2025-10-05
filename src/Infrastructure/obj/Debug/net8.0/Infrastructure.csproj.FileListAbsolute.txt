@@ -1,0 +1,17 @@
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\ProjectsLocal\quartile-stores\src\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache

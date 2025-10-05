@@ -1,0 +1,68 @@
+name: Deploy API
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: 'quartilestores-api-prod'
+  RESOURCE_GROUP: 'quartile-stores-rg'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Build and publish
+        run: |
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+          dotnet publish -c Release -o ./publish
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-app
+          path: ./publish
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment: production
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: api-app
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.WEBAPP_CLIENTID }}
+          tenant-id: ${{ secrets.WEBAPP_TENANTID }}
+          subscription-id: ${{ secrets.WEBAPP_SUBSCRIPTIONID }}
+
+      - name: Deploy to Staging Slot
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          slot-name: 'staging'
+          package: .
+
+      - name: Swap to production
+        run: |
+          az webapp deployment slot swap `
+            --name ${{ env.AZURE_WEBAPP_NAME }} `
+            --resource-group ${{ env.RESOURCE_GROUP }} `
+            --slot staging `
+            --target-slot production

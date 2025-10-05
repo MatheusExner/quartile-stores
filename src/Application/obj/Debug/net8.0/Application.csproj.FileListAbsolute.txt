@@ -1,0 +1,15 @@
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\ProjectsLocal\quartile-stores\src\Application\bin\Debug\net8.0\Application.deps.json
+C:\ProjectsLocal\quartile-stores\src\Application\bin\Debug\net8.0\Application.dll
+C:\ProjectsLocal\quartile-stores\src\Application\bin\Debug\net8.0\Application.pdb
+C:\ProjectsLocal\quartile-stores\src\Application\bin\Debug\net8.0\Domain.dll
+C:\ProjectsLocal\quartile-stores\src\Application\bin\Debug\net8.0\Domain.pdb
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.dll
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\refint\Application.dll
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\Application.pdb
+C:\ProjectsLocal\quartile-stores\src\Application\obj\Debug\net8.0\ref\Application.dll
