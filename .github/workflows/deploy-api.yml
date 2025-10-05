@@ -1,5 +1,10 @@
 name: Deploy API
 
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
 env:
   APP_NAME: 'quartile-stores'
   RESOURCE_GROUP: 'quartile-stores-rg'
