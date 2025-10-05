@@ -100,7 +100,5 @@ See the `wiki/` folder for per-controller documentation:
 
 The repository includes a Postman collection and environment files:
 
-- `QuartileStores.postman_collection.json`
-
-Import them into Postman and point `baseUrl` to your API. The collection runs Create→Read→Update→Delete sequences and stores created resource IDs in environment variables for subsequent requests.
+- `Quartile Stores Api.postman_collection.json`
 
