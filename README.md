@@ -102,3 +102,10 @@ The repository includes a Postman collection and environment files:
 
 - `Quartile Stores Api.postman_collection.json`
 
+## URL's
+
+- API: https://quartile-stores.azurewebsites.net/
+- Staging API: https://quartile-stores-staging.azurewebsites.net/
+
+- Azure functions: https://quartilestores.azurewebsites.net/
+- Azure functions staging: https://quartilestores-staging.azurewebsites.net/
