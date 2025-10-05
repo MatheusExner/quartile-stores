@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  FUNCTION_NAME: 'quartilestores-function-prod'
+  FUNCTION_NAME: 'quartilestores'
   RESOURCE_GROUP: 'quartile-stores-rg'
   DOTNET_VERSION: '8.0.x'
 
@@ -24,20 +24,19 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: Build function
+      - name: Build and publish
         run: |
           dotnet restore
           dotnet build --configuration Release --no-restore
-
-      - name: Publish function
-        run: dotnet publish -c Release -o ./publish
+          dotnet publish -c Release -o ./publish
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.FUNCTION_CLIENTID }}
-          tenant-id: ${{ secrets.FUNCTION_TENANTID }}
-          subscription-id: ${{ secrets.FUNCTION_SUBSCRIPTIONID }}
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
 
       - name: Deploy to Staging Slot
         uses: Azure/functions-action@v1
@@ -46,10 +45,11 @@ jobs:
           slot-name: 'staging'
           package: './publish'
 
-      - name: Swap to production
+      - name: Swap Staging to Production
         run: |
+          echo "Swapping staging slot to production..."
           az webapp deployment slot swap `
-            --name ${{ env.AZURE_FUNCTIONAPP_NAME }} `
+            --name ${{ env.FUNCTION_NAME }} `
             --resource-group ${{ env.RESOURCE_GROUP }} `
             --slot staging `
             --target-slot production

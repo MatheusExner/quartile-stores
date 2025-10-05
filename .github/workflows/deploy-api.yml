@@ -1,0 +1,56 @@
+name: Deploy API
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+env:
+  APP_NAME: 'quartile-stores'
+  RESOURCE_GROUP: 'quartile-stores-rg'
+  DOTNET_VERSION: '8.0.x'
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+    environment: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Build, test, and publish
+        run: |
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+          dotnet test --configuration Release
+          dotnet publish -c Release -o ./publish
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
+
+      - name: Deploy to Staging Slot
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.APP_NAME }}
+          slot-name: 'staging'
+          package: ./publish
+
+      - name: Swap Staging to Production
+        run: |
+          echo "Swapping staging slot to production..."
+          az webapp deployment slot swap `
+            --name ${{ env.APP_NAME }} `
+            --resource-group ${{ env.RESOURCE_GROUP }} `
+            --slot staging `
+            --target-slot production
