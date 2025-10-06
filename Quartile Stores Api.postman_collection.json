@@ -1,8 +1,7 @@
 {
 	"info": {
-		"_postman_id": "27d1096d-4667-4c04-87ed-dadf50afea5d",
+		"_postman_id": "cf7bc152-9a2d-44cd-aeeb-c1435a1dbc52",
 		"name": "Quartile Stores Api",
-		"description": "Complete RESTful API collection for Companies, Stores and Products (Azure Functions)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6009813"
 	},
@@ -321,12 +320,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/api/Store/{{storeId}}",
+							"raw": "{{baseUrl}}/api/v1/Store/{{storeId}}",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
+								"v1",
 								"Store",
 								"{{storeId}}"
 							]
@@ -530,12 +530,20 @@
 	],
 	"variable": [
 		{
+			"key": "baseUrlStaging",
+			"value": ""
+		},
+		{
+			"key": "functionUrlStaging",
+			"value": ""
+		},
+		{
 			"key": "baseUrl",
-			"value": "https://quartile-api-prod.azurewebsites.net"
+			"value": "https://quartile-stores.azurewebsites.net/"
 		},
 		{
 			"key": "functionUrl",
-			"value": "https://quartile-function-prod.azurewebsites.net"
+			"value": "https://quartilestores.azurewebsites.net/"
 		},
 		{
 			"key": "companyId",
@@ -547,14 +555,6 @@
 		},
 		{
 			"key": "productId",
-			"value": ""
-		},
-		{
-			"key": "baseUrlStaging",
-			"value": ""
-		},
-		{
-			"key": "functionUrlStaging",
 			"value": ""
 		}
 	]
