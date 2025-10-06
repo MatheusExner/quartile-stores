@@ -23,7 +23,7 @@ This project is a backend solution for managing companies, stores, and products 
 - `src/Application/Dtos/` — Data Transfer Objects
 - `src/Domain/Entities/` — Domain models
 - `src/Infrastructure/` — Data access and repositories
-- `tests/` — Unit and integration tests
+- `tests/` — Unit tests
 - `wiki/` — API and function documentation
 
 ---
@@ -54,10 +54,9 @@ This README documents how the project is organized, how to run it locally, how t
 - `src/Infrastructure` — EF Core DbContext, migrations, repositories
 - `src/StoreApi` — ASP.NET Core Web API controllers for Companies and Stores
 - `src/Functions` — Azure Functions project (Products)
-- `tests` — Unit and integration tests (TDD examples)
+- `tests` — Unit tests (TDD examples)
 - `wiki` — Generated API documentation (per-controller/function markdown files)
-- `QuartileStores.postman_collection.json` — Postman collection for automated API testing
-- `QuartileStores.postman_environment.json` — Postman environment for local/staging URLs
+- `Quartile Stores Api.postman_collection.json` — Postman collection for automated API testing
 
 ## Quick start (local)
 
@@ -86,7 +85,7 @@ dotnet build src/Functions
 func host start --script-root src/Functions/bin/Debug/net8.0
 ```
 
-5. Import the Postman collection (`QuartileStores.postman_collection.json`) and environment into Postman. Configure `baseUrl` to point to your local API (for example `https://localhost:7050`) or staging slot.
+5. Import the Postman collection (`Quartile Stores Api.postman_collection.json`) and environment into Postman. Configure `baseUrl` to point to your local API (for example `https://localhost:7050`) or staging slot.
 
 ## APIs
 
