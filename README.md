@@ -109,3 +109,15 @@ The repository includes a Postman collection and environment files:
 
 - Azure functions: https://quartilestores.azurewebsites.net/
 - Azure functions staging: https://quartilestores-staging.azurewebsites.net/
+
+## ⚠️ Note on Initial Performance (Cold Start)
+
+Some Azure services used in this project, such as Azure Functions and Azure Web Apps, may experience delays or timeouts on the first request after a period of inactivity.
+
+This is due to the so-called “cold start”, where the platform needs to initialize the application or function that was idle to save resources.
+
+How this affects the project
+
+The first call to an Azure Function or Web App after some idle time may take a few extra seconds to respond.
+
+Azure SQL Server in Serverless mode may also take longer to respond if the database has paused due to inactivity.
